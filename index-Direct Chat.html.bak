@@ -4,7 +4,7 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 <link type="text/css" rel="stylesheet" href="https://fsa01.ssf.bugfocus.com/clientweb/chat-client-v4/css/form.css">
 <script type="text/javascript">
     SERVICE_PATTERN_CHAT_CONFIG = {
-        appId: '7cd72759f532446f8f365a56ff0846d8',
+        appId: '5b663db2c21848c7baa08dc676d2a3b6',
         apiUrl: 'https://fsa01.ssf.bugfocus.com/clientweb/api/v1',
         tenantUrl: 'fsa01.ssf.bugfocus.com',
         chatPath: 'https://fsa01.ssf.bugfocus.com/clientweb/chat-client-v4/'
