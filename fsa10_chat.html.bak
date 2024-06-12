@@ -6,7 +6,7 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
     SERVICE_PATTERN_CHAT_CONFIG = {
         appId: '384af742aeb34e08870f5ff343c7df30',
         apiUrl: 'https://fsa10.ssf.bugfocus.com/clientweb/api/v1',
-        tenantUrl: '1fsa10.ssf.bugfocus.com',
+        tenantUrl: 'fsa10.ssf.bugfocus.com',
         chatPath: 'https://fsa10.ssf.bugfocus.com/clientweb/chat-client-v4/'
 
         /*        
