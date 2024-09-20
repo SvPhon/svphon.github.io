@@ -4,7 +4,7 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 <link type="text/css" rel="stylesheet" href="https://bp.direct-connect.net/clientweb/chat-client-v4/css/form.css">
 <script type="text/javascript">
     SERVICE_PATTERN_CHAT_CONFIG = {
-        appId: 'a68ed39ba8a44b7ab9f42e4f1481c290',
+        appId: '7453548ef79f4e8ea09beed8895b5785',
         apiUrl: 'https://bp.direct-connect.net/clientweb/api/v1',
         tenantUrl: 'bp.direct-connect.net',
         chatPath: 'https://bp.direct-connect.net/clientweb/chat-client-v4/'
