@@ -4,9 +4,9 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 <link type="text/css" rel="stylesheet" href="https://qa-ol1.pl.bugfocus.com/clientweb/chat-client-v4/css/form.css">
 <script type="text/javascript">
     SERVICE_PATTERN_CHAT_CONFIG = {
-        appId: '05281c6670af486d8ed3d2f1691b346c',
+        appId: 'b017258ead8249158dc8fa76dd04bf80',
         apiUrl: 'https://qa-ol1.pl.bugfocus.com/clientweb/api/v1',
-        tenantUrl: 'sveta2.com',
+        tenantUrl: 'qa-ol1.bugfocus.com',
         chatPath: 'https://qa-ol1.pl.bugfocus.com/clientweb/chat-client-v4/'
 
         /*        
