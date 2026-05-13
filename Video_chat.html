@@ -1,0 +1,50 @@
+<!-- You have to put this piece of JavaScript code into your web page
+Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
+-->
+<link type="text/css" rel="stylesheet" href="https://ocean08.brightpattern.com/clientweb/chat-client-v4/css/form.css">
+<script type="text/javascript">
+    SERVICE_PATTERN_CHAT_CONFIG = {
+        appId: '5ff5e2b853d643128f653c53382bd6ef',
+        apiUrl: 'https://qa-ol1.pl.bugfocus.com/clientweb/api/v1',
+        tenantUrl: 'sve.bugfocus.com',
+        chatPath: 'https://qa-ol1.pl.bugfocus.com/clientweb/chat-client-v4/',
+         autostartChat: false,
+         autostartVideocall: true
+
+      /*
+         // Default customer data, it can be collected on current site's context
+         first_name: '',
+         last_name: '',
+         email: '',
+         phone_number: ''
+    */
+    };
+
+function launch()
+{
+  snippetOpenChat(true);
+}
+
+function autoEnableVideo(){
+    var ifr = document.getElementById("sp-chat-iframe");
+    if(ifr){
+        var mute = ifr.contentWindow.document.getElementById("call-controls_mute-audio");
+        if(mute){
+            if(mute.classList.contains('off'))
+                call.click();
+        }
+        var video = ifr.contentWindow.document.getElementById("call-controls_mute-video");
+        if(video){
+            if(video.classList.contains('off'))
+                video.click();
+        }
+    }
+}
+
+setInterval(autoEnableVideo, 500);
+
+</script>
+<script src="https://qa-ol1.pl.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script>
+
+<button onclick="launch()" type="button" class="btn btn-primary btn-lg">Start Video Call</button>
+</body>
